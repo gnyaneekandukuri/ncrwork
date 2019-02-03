@@ -2,12 +2,12 @@
 
 int main()
 {
-    char a[15];
+    char a[80];
     int count =0;
     int space=0,tab =0,digit= 0,alpha =0;
   printf ("Enter a string pf characters");
  scanf("%[^\n]s ",a);
- while(count <= 15){
+ while(count < 80){
    
      if(a[count] == ' '){
          space++;
