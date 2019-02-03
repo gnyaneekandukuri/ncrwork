@@ -7,7 +7,7 @@ int main()
     int space=0,tab =0,digit= 0,alpha =0;
   printf ("Enter a string pf characters");
  scanf("%[^\n]s ",a);
- while(count <= 80){
+ while(count < 80){
    
      if(a[count] == ' '){
          space++;
